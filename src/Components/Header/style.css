@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
 .head {
-  padding-bottom: 30%;
+  height: 800px;
   padding-left: 5%;
   border: 2px black solid;
   text-align: left;
