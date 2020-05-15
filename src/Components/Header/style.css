@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;0,900;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 .head {
-  padding-bottom: 400px;
+  padding-bottom: 30%;
   padding-left: 5%;
   border: 2px black solid;
   text-align: left;
@@ -11,4 +13,18 @@
   font-size: 120px;
   line-height: 0.8;
   font-family: 'Rubik', sans-serif;
+  margin-bottom: 10px;
+}
+
+.position {
+  font-size: 38px;
+  margin-top: 10px;
+  font-family: 'Overpass', sans-serif;
+  margin-bottom: 10px;
+}
+
+.skills {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: 'Overpass', sans-serif;
 }
