@@ -6,7 +6,7 @@ export default class Header extends Component {
   render() {
     return (
       <div className='head'>
-        <Typist>
+        <Typist cursor={{show: false}}>
           <h1 className='name'>
             <Typist.Delay ms={1000} />
             JOSHUA
