@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 .about {
   height: 500px;
   border: 2px black solid;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
 }
