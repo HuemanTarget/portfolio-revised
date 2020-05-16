@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+.Container {
+  position: relative;
+  min-height: 300px;
+  max-height: 800px;
+  overflow: hidden;
+  margin-bottom: 300px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+.Video {
+  width: 100%;
+  height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.Content {
+  position: absolute;
+  top: 0;
+  color: #0e3386;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  /* width: 100%;
+  height: 100%; */
+  /* display: flex; */
+  justify-content: left;
+  /* align-items: center; */
+  padding-left: 5%;
+}
+
+.Content h1 {
+  color: #0e3386;
+  font-size: 150px;
+  line-height: 0.8;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 5px;
+  /* z-index: 1; */
+  text-shadow: 5px 5px whitesmoke;
+  text-align: left;
+}
+
+.Content h3 {
+  font-size: 48px;
+  margin-top: 5px;
+  font-family: 'Overpass', sans-serif;
+  margin-bottom: 2px;
+  z-index: 2;
+  text-shadow: 1px 1px whitesmoke;
+  text-align: left;
+}
+
+.Content p {
+  line-height: 1;
+  font-size: 35px;
+  margin-top: 2px;
+  font-family: 'Overpass', sans-serif;
+  margin-bottom: 2px;
+  z-index: 2;
+  text-shadow: 1px 1px whitesmoke;
+  text-align: left;
+}
