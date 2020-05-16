@@ -1,6 +1,7 @@
 import React from 'react';
 import 'animate.css/animate.min.css';
 import ScrollAnimation from 'react-animate-on-scroll';
+import pic from '../../Assets/circle-cropped.png';
 
 import './style.css';
 
@@ -15,6 +16,7 @@ const AboutMe = () => {
         animateOut='fadeOut'
       >
         <h1 className='title'>ABOUT ME</h1>
+        <img src={pic} alt='profile-pic'></img>
       </ScrollAnimation>
     </div>
   );

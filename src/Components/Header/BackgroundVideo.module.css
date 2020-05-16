@@ -39,6 +39,7 @@
   /* z-index: 1; */
   text-shadow: 5px 5px whitesmoke;
   text-align: left;
+  -webkit-text-stroke: 5px black;
 }
 
 .Content h3 {
@@ -49,6 +50,7 @@
   z-index: 2;
   text-shadow: 1px 1px whitesmoke;
   text-align: left;
+  -webkit-text-stroke: 0.1px black;
 }
 
 .Content p {
@@ -60,4 +62,5 @@
   z-index: 2;
   text-shadow: 1px 1px whitesmoke;
   text-align: left;
+  -webkit-text-stroke: 0.3px black;
 }
