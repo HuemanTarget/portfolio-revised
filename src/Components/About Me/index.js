@@ -17,6 +17,30 @@ const AboutMe = () => {
       >
         <h1 className='title'>ABOUT ME</h1>
         <img src={pic} alt='profile-pic'></img>
+        <h3>
+          I'm a Full-Stack Software Engineer with a background in React,
+          Javascript, NodeJS, Express, HTML, and CSS. With over 15 years in the
+          post production world working on everything from commercials and music
+          videos to features and video games, I look forward to combining my
+          Software Engineering skills with my post production ones to create new
+          applications that merge the two worlds.
+        </h3>
+        <div className='social-links'>
+          <a
+            href='https://www.linkedin.com/in/joshbasche/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='fa fa-linkedin-square' />
+          </a>
+          <a
+            href='https://github.com/HuemanTarget'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='fa fa-github-square' />
+          </a>
+        </div>
       </ScrollAnimation>
     </div>
   );
