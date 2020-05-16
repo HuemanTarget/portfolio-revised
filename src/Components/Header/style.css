@@ -14,6 +14,7 @@
   line-height: 0.8;
   font-family: 'Rubik', sans-serif;
   margin-bottom: 10px;
+  z-index: 1;
 }
 
 .position {
@@ -21,10 +22,13 @@
   margin-top: 10px;
   font-family: 'Overpass', sans-serif;
   margin-bottom: 10px;
+  z-index: 2;
 }
 
 .skills {
   font-size: 30px;
   margin-top: 10px;
   font-family: 'Overpass', sans-serif;
+  z-index: 3;
 }
+

@@ -12,7 +12,8 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-sticky": "^6.0.3",
-    "react-typist": "^2.0.5"
+    "react-typist": "^2.0.5",
+    "react-youtube-background": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
