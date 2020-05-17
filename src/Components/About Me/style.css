@@ -5,7 +5,7 @@
   min-height: 300px;
   max-height: 800px;
   overflow: hidden;
-  margin-bottom: 300px;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -22,7 +22,7 @@ img {
   max-width: 17%;
 } */
 
-h3 {
+.about h3 {
   font-family: 'Overpass', sans-serif;
   font-size: 25px;
   text-align: center;
@@ -33,7 +33,6 @@ h3 {
 
 h3:hover {
   color: #0e3386;
-  font-weight: 600;
 }
 
 .social-links {
@@ -51,5 +50,5 @@ h3:hover {
 }
 
 i:hover {
-  font-size: 6em;
+  color: #0e3386;
 }
