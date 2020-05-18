@@ -2,6 +2,7 @@ import React from 'react';
 import 'animate.css/animate.min.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import pic from '../../Assets/circle-cropped.png';
+import picTwo from '../../Assets/ghostcar-cropped.png';
 
 import './style.css';
 
@@ -16,7 +17,10 @@ const AboutMe = () => {
         animateOut='fadeOut'
       >
         <h1 className='title'>ABOUT ME</h1>
-        <img src={pic} alt='profile-pic'></img>
+        <div>
+          <img className='headshot' src={pic} alt='profile-pic'></img>
+          {/* <img className='cat' src={picTwo} alt='profile-pic'></img> */}
+        </div>
         <h3>
           I'm a Full-Stack Software Engineer with a background in React,
           Javascript, NodeJS, Express, HTML, and CSS. With over 15 years in the
@@ -32,6 +36,15 @@ const AboutMe = () => {
             rel='noopener noreferrer'
           >
             <i className='fa fa-linkedin-square' />
+            <h4 className='link'>LinkedIn</h4>
+          </a>
+          <a
+            href='https://www.docdroid.net/xJ1azQo/joshua-basche-resume-2020-full-pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='fa fa-rebel' />
+            <h4 className='link'>Resume</h4>
           </a>
           <a
             href='https://github.com/HuemanTarget'
@@ -39,6 +52,7 @@ const AboutMe = () => {
             rel='noopener noreferrer'
           >
             <i className='fa fa-github-square' />
+            <h4 className='link'>GitHub</h4>
           </a>
         </div>
       </ScrollAnimation>
