@@ -36,12 +36,12 @@
   font-family: 'Overpass', sans-serif;
 }
 
-img {
+.headshot {
   /* position: absolute; */
   max-width: 15%;
 }
 
-img:hover {
+.headshot:hover {
   animation-name: spin;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -81,9 +81,39 @@ h3:hover {
   text-decoration: none;
 }
 
-i:hover {
+/* i:hover {
   color: #0e3386;
   text-decoration: none;
+} */
+
+/* i:before,
+i:after {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  z-index: -1;
+} */
+
+i:hover:before,
+i:hover:after {
+  color: #0e3386;
+  border-color: transparent;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  -webkit-transform: scale(4);
+  transform: scale(4);
+  -webkit-transition: 2100ms blur ease, 900ms border-color ease,
+    1000ms -webkit-transform ease;
+  transition: 2100ms blur ease, 900ms border-color ease,
+    1000ms -webkit-transform ease;
+  transition: 1000ms transform ease, 2100ms blur ease, 900ms border-color ease;
+  transition: 1000ms transform ease, 2100ms blur ease, 900ms border-color ease,
+    1000ms -webkit-transform ease;
+}
+i:hover:after {
+  -webkit-transition-delay: 100ms;
+  transition-delay: 100ms;
 }
 
 .link {
