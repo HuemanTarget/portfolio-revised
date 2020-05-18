@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 .projects {
   position: relative;
   min-height: 300px;
@@ -21,8 +23,19 @@
 }
 
 .wrapper {
-  position: absolute;
-  top: 50%;
+  /* position: relative; */
+  /* width: 100px;
+  height: 250px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* transform: translate(-50%, -50%); */
+  width: 100%;
+  max-width: 650px;
+  max-height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -31,6 +44,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 50px; */
 }
 
 .card {
@@ -91,5 +105,20 @@
 }
 .card p {
   line-height: 24px;
-  height: 70%;
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
+  /* height: 70%; */
+  margin-top: 20px;
+}
+
+.wrapper i {
+  color: black;
+  font-size: 3em;
+  /* padding-top: 50px; */
+  text-decoration: none;
+}
+
+.wrapper h4 {
+  font-size: 20px;
+  margin: 0;
 }

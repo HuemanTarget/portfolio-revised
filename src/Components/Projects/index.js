@@ -24,14 +24,10 @@ const Projects = () => {
               alt='poster'
             ></img>
             <div className='descriptions'>
-              <h1>John Wick</h1>
+              <h1>interACTive Murder Mystery</h1>
               <p>
-                After gunning down a member of the High Table -- the shadowy
-                international assassin's guild -- legendary hit man John Wick
-                finds himself stripped of the organization's protective
-                services. Now stuck with a $14 million bounty on his head, Wick
-                must fight his way through the streets of New York as he becomes
-                the target of the world's most ruthless killers.
+                An interactive Mystery Story where the user decides who gets
+                murdered. Made with ReactJS, Firebase, and Firestore.
               </p>
               <a
                 href='https://github.com/HuemanTarget'
