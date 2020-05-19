@@ -128,22 +128,58 @@ i:hover:after {
 a:link {
   text-decoration: none;
 }
-
-/* @media screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 900px) {
   .about-title {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Overpass', sans-serif;
-    margin-top: 200px;
+    margin-top: 50px;
+  }
+
+  .headshot {
+    /* position: absolute; */
+    max-width: 25%;
   }
 
   .about h3 {
     font-family: 'Overpass', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    padding-bottom: 20px;
+    width: 90%;
   }
-} */
+
+  .social-links i {
+    color: black;
+    font-size: 2.5em;
+    padding: 8px;
+    text-decoration: none;
+  }
+
+  .link {
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+    font-size: 12px;
+    object-position: -100px;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+    margin: auto;
+    padding-bottom: 15px;
+    text-decoration: none;
+  }
+
+  .about {
+    position: relative;
+    min-height: 300px;
+    max-height: 1000px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+}
