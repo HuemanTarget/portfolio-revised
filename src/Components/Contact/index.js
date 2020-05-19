@@ -34,6 +34,16 @@ const Contact = () => {
             </a>
           </div> */}
         </ScrollAnimation>
+        <ScrollAnimation animateIn='bounceInLeft' animateOut='bounceOutRight'>
+          <div>
+            <a href='mailto:joshbasche@live.com' class='buttonTwo'>
+              <div class='qubeTwo'>
+                <div class='frontTwo'>joshbasche@live.com</div>
+                <div class='backTwo'>Email</div>
+              </div>
+            </a>
+          </div>
+        </ScrollAnimation>
       </ScrollAnimation>
     </div>
   );
