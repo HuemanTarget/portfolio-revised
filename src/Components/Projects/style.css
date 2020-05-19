@@ -138,3 +138,13 @@
   font-size: 20px;
   margin: 0;
 }
+
+@media screen and (max-device-width: 1024px) {
+  .title h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    padding-bottom: 50px;
+    margin-top: 200px;
+  }
+}

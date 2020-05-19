@@ -25,7 +25,7 @@
 .about {
   position: relative;
   min-height: 300px;
-  max-height: 800px;
+  max-height: 1000px;
   overflow: hidden;
   margin-bottom: 50px;
 }
@@ -127,4 +127,23 @@ i:hover:after {
 
 a:link {
   text-decoration: none;
+}
+
+@media screen and (max-device-width: 1024px) {
+  .about-title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 200px;
+  }
+
+  .about h3 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 20px;
+  }
 }

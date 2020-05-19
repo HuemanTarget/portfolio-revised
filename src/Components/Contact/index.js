@@ -20,8 +20,8 @@ const Contact = () => {
           <div>
             <a href='tel:3108067483' class='button'>
               <div class='qube'>
-                <div class='front'>(310)806-7483</div>
-                <div class='back'>Phone Number</div>
+                <div class='front'>(310) 806-7483</div>
+                <div class='back'>Phone</div>
               </div>
             </a>
           </div>
