@@ -3,7 +3,7 @@
 .projects {
   position: relative;
   min-height: 300px;
-  max-height: 1000px;
+  max-height: 1500px;
   overflow: hidden;
   margin-bottom: 100px;
 }
@@ -19,7 +19,7 @@
   font-size: 50px;
   text-align: center;
   font-family: 'Overpass', sans-serif;
-  /* padding: 50px; */
+  padding-bottom: 50px;
 }
 
 .wrapper {
@@ -31,7 +31,7 @@
   /* transform: translate(-50%, -50%); */
   width: 100%;
   max-width: 650px;
-  max-height: 650px;
+  max-height: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -48,9 +48,10 @@
 }
 
 .card {
-  flex: 1;
+  flex: 2;
   flex-basis: 300px;
   flex-grow: 0;
+  width: 300px;
   height: 440px;
   background: #fff;
   border: 2px solid #fff;
@@ -58,13 +59,16 @@
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
   overflow: hidden;
-  position: relative;
+  margin-bottom: 20px;
+  /* position: relative; */
 }
 
 .card img {
   width: 100%;
   height: 100%;
+  /* object-fit: fill; */
   transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+  /* overflow: hidden; */
 }
 
 .descriptions {
@@ -119,6 +123,18 @@
 }
 
 .wrapper h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.wrapperTwo i {
+  color: black;
+  font-size: 3em;
+  /* padding-top: 50px; */
+  text-decoration: none;
+}
+
+.wrapperTwo h4 {
   font-size: 20px;
   margin: 0;
 }
