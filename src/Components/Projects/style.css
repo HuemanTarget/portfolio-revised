@@ -48,7 +48,7 @@
 }
 
 .card {
-  flex: 2;
+  flex: 3;
   flex-basis: 300px;
   flex-grow: 0;
   width: 300px;

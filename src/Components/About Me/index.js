@@ -16,7 +16,7 @@ const AboutMe = () => {
         animateIn='fadeIn'
         animateOut='fadeOut'
       >
-        <h1 className='title'>ABOUT ME</h1>
+        <h1 className='about-title'>ABOUT ME</h1>
         <div>
           <img className='headshot' src={pic} alt='profile-pic'></img>
           {/* <img className='cat' src={picTwo} alt='profile-pic'></img> */}

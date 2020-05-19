@@ -30,10 +30,11 @@
   margin-bottom: 50px;
 }
 
-.title {
+.about-title {
   font-size: 50px;
   text-align: center;
   font-family: 'Overpass', sans-serif;
+  margin-top: 100px;
 }
 
 .headshot {

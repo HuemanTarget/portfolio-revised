@@ -1,6 +1,11 @@
 import React from 'react';
 import 'animate.css/animate.min.css';
 import ScrollAnimation from 'react-animate-on-scroll';
+import brag from '../../Assets/brag.jpg';
+import red from '../../Assets/RedCup.jpg';
+import act from '../../Assets/interACTive.jpg';
+import bad from '../../Assets/BreakingBlackjack.jpg';
+
 
 import './style.css';
 
@@ -15,12 +20,12 @@ const Projects = () => {
         animateOut='fadeOut'
       >
         <div className='title'>
-        <h1>PROJECTS</h1>
+          <h1>PROJECTS</h1>
         </div>
         <div className='wrapper'>
           <div className='card'>
             <img
-              src='https://images-na.ssl-images-amazon.com/images/I/71WiYBT2QsL._AC_SL1500_.jpg'
+              src={act}
               alt='poster'
             ></img>
             <div className='descriptions'>
@@ -49,7 +54,7 @@ const Projects = () => {
           </div>
           <div className='card'>
             <img
-              src='https://images-na.ssl-images-amazon.com/images/I/71WiYBT2QsL._AC_SL1500_.jpg'
+              src={red}
               alt='poster'
             ></img>
             <div className='descriptions'>
@@ -79,18 +84,18 @@ const Projects = () => {
           </div>
           <div className='card'>
             <img
-              src='https://images-na.ssl-images-amazon.com/images/I/71WiYBT2QsL._AC_SL1500_.jpg'
+              src={bad}
               alt='poster'
             ></img>
             <div className='descriptions'>
-              <h1>Red Cup Games</h1>
+              <h1>Breaking Blackjack</h1>
               <p>
-                A message board for people to post about their drinking games or
-                find new ones from other users or use the chat room to talk to
-                people directly. Made with Django, Python, and AWS.
+                Become the King Of Meth one Blackjack at a time. A version of
+                blackjack skinned with Breaking Bad sounds and images. Made with
+                Javascript, HTML, and CSS.
               </p>
               <a
-                href='https://github.com/HuemanTarget/red-cup-games'
+                href='https://github.com/HuemanTarget/breaking-blackjack'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -98,7 +103,7 @@ const Projects = () => {
                 <h4 className='link'>GitHub</h4>
               </a>
               <a
-                href='https://redcupgames.herokuapp.com/'
+                href='https://breaking-blackjack.netlify.app/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -109,18 +114,18 @@ const Projects = () => {
           </div>
           <div className='card'>
             <img
-              src='https://images-na.ssl-images-amazon.com/images/I/71WiYBT2QsL._AC_SL1500_.jpg'
+              src={brag}
               alt='poster'
             ></img>
             <div className='descriptions'>
-              <h1>Red Cup Games</h1>
+              <h1>Brag Board</h1>
               <p>
-                A message board for people to post about their drinking games or
-                find new ones from other users or use the chat room to talk to
-                people directly. Made with Django, Python, and AWS.
+                A message board for people to post and comment about their
+                accomplishments in games, sports, and even body size. Made with
+                Javascript, Express, NodeJS, and MongoDB.
               </p>
               <a
-                href='https://github.com/HuemanTarget/red-cup-games'
+                href='https://github.com/HuemanTarget/brag-board'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -128,7 +133,7 @@ const Projects = () => {
                 <h4 className='link'>GitHub</h4>
               </a>
               <a
-                href='https://redcupgames.herokuapp.com/'
+                href='https://brag-board.herokuapp.com/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
