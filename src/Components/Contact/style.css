@@ -224,15 +224,60 @@
   transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-/* @media screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 900px) {
   .title {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Overpass', sans-serif;
-    margin-top: 200px;
   }
 
-  .contact {
-    height: 400px;
+  .button {
+    width: 300px;
+    height: 90px;
+    margin-top: 30px;
+    perspective: 1800px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-} */
+
+  .buttonTwo {
+    width: 300px;
+    height: 200px;
+    margin-top: 80px;
+    perspective: 1800px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button .qube .front,
+  .button .qube .back {
+    /* backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease;
+    position: absolute;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif; */
+    font-size: 25px;
+  }
+
+  .buttonTwo .qubeTwo .frontTwo,
+  .buttonTwo .qubeTwo .backTwo {
+    /* backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease;
+    position: absolute;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif; */
+    font-size: 25px;
+  }
+}
