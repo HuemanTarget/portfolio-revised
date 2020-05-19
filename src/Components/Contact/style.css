@@ -224,7 +224,7 @@
   transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-@media screen and (max-device-width: 1024px) {
+/* @media screen and (max-device-width: 1024px) {
   .title {
     font-size: 50px;
     text-align: center;
@@ -235,4 +235,4 @@
   .contact {
     height: 400px;
   }
-}
+} */

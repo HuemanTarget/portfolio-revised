@@ -39,7 +39,7 @@
   /* z-index: 1; */
   text-shadow: 5px 5px whitesmoke;
   text-align: left;
-  -webkit-text-stroke: 5px black;
+  /* -webkit-text-stroke: 5px black; */
 }
 
 .Content h3 {
@@ -67,18 +67,55 @@
   /* -webkit-text-stroke: 0.3px black; */
 }
 
-@media screen and (max-device-width: 1024px) {
+/* @media screen and (max-device-width: 1024px) {
   .Video {
     width: 150%;
     height: 100%;
     object-position: -250px;
   }
-}
-
-/* @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) 
-and (-webkit-device-pixel-ratio : 3)
-and (orientation : portrait) { 
-  
 } */
+
+@media only screen and (max-device-width: 900px) {
+  .Video {
+    width: 150%;
+    height: 100%;
+    object-position: -100px;
+  }
+
+  .Content h1 {
+    color: red;
+    font-size: 50px;
+    line-height: 0.9;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 5px;
+    /* z-index: 1; */
+    text-shadow: 0.5px 0.5px whitesmoke;
+    text-align: left;
+    /* -webkit-text-stroke: 5px black; */
+  }
+
+  .Content h3 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 2px;
+    z-index: 2;
+    text-shadow: 1px 1px whitesmoke;
+    text-align: left;
+    /* -webkit-text-stroke: 0.1px black; */
+  }
+
+  .Content p {
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 2px;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 2px;
+    z-index: 2;
+    text-shadow: 1px 1px whitesmoke;
+    text-align: left;
+    /* -webkit-text-stroke: 0.3px black; */
+  }
+}

@@ -129,7 +129,7 @@ a:link {
   text-decoration: none;
 }
 
-@media screen and (max-device-width: 1024px) {
+/* @media screen and (max-device-width: 1024px) {
   .about-title {
     font-size: 50px;
     text-align: center;
@@ -146,4 +146,4 @@ a:link {
     width: 80%;
     padding-bottom: 20px;
   }
-}
+} */
