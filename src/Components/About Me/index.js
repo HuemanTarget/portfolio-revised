@@ -10,7 +10,7 @@ const AboutMe = () => {
   return (
     <div className='about'>
       <ScrollAnimation
-        delay={500}
+        delay={250}
         duration={3}
         initiallyVisible={false}
         animateIn='fadeIn'

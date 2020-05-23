@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <div className='projects'>
       <ScrollAnimation
-        delay={500}
+        delay={250}
         duration={3}
         initiallyVisible={false}
         animateIn='fadeIn'

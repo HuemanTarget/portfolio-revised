@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className='contact'>
       <ScrollAnimation
-        delay={500}
+        delay={250}
         duration={3}
         initiallyVisible={false}
         animateIn='fadeIn'

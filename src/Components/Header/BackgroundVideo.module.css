@@ -35,6 +35,7 @@
   font-size: 150px;
   line-height: 0.8;
   font-family: 'Rubik', sans-serif;
+  margin-top: 20px;
   margin-bottom: 5px;
   /* z-index: 1; */
   text-shadow: 5px 5px whitesmoke;
@@ -67,19 +68,27 @@
   /* -webkit-text-stroke: 0.3px black; */
 }
 
-/* @media screen and (max-device-width: 1024px) {
+@media all and (max-width: 1300px) and (min-width: 920px) {
   .Video {
-    width: 150%;
+    width: 135%;
     height: 100%;
     object-position: -250px;
   }
-} */
+}
+
+@media all and (max-width: 920px) and (min-width: 500px) {
+  .Video {
+    width: 150%;
+    height: 100%;
+    object-position: -215px;
+  }
+}
 
 @media only screen and (max-device-width: 900px) {
   .Video {
     width: 150%;
     height: 100%;
-    object-position: -100px;
+    object-position: -105px;
   }
 
   .Content h1 {
