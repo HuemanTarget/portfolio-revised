@@ -1,7 +1,7 @@
 import React from 'react';
 import 'animate.css/animate.min.css';
 import ScrollAnimation from 'react-animate-on-scroll';
-import { List, ListItemContent, ListItem } from 'react-mdl';
+
 
 import './style.css';
 
@@ -10,10 +10,10 @@ const Contact = () => {
     <div className='contact'>
       <ScrollAnimation
         delay={250}
-        duration={3}
+        duration={1}
         initiallyVisible={false}
         animateIn='fadeIn'
-        animateOut='fadeOut'
+        // animateOut='fadeOut'
       >
         <h1 className='title'>CONTACT</h1>
         <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>

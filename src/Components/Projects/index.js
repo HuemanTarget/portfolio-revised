@@ -14,10 +14,10 @@ const Projects = () => {
     <div className='projects'>
       <ScrollAnimation
         delay={250}
-        duration={3}
+        duration={1}
         initiallyVisible={false}
         animateIn='fadeIn'
-        animateOut='fadeOut'
+        // animateOut='fadeOut'
       >
         <div className='title'>
           <h1>PROJECTS</h1>

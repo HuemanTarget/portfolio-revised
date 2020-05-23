@@ -2,7 +2,7 @@ import React from 'react';
 import 'animate.css/animate.min.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import pic from '../../Assets/circle-cropped.png';
-import picTwo from '../../Assets/ghostcar-cropped.png';
+
 
 import './style.css';
 
@@ -14,12 +14,12 @@ const AboutMe = () => {
         duration={1}
         initiallyVisible={false}
         animateIn='fadeIn'
-        animateOut='fadeOut'
+        // animateOut='fadeOut'
       >
         <h1 className='about-title'>ABOUT ME</h1>
         <div>
           <img className='headshot' src={pic} alt='profile-pic'></img>
-          {/* <img className='cat' src={picTwo} alt='profile-pic'></img> */}
+          
         </div>
         <h3>
           I'm a Full-Stack Software Engineer with a background in React,
