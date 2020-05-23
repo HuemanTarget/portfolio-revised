@@ -11,7 +11,7 @@ const AboutMe = () => {
     <div className='about'>
       <ScrollAnimation
         delay={250}
-        duration={3}
+        duration={1}
         initiallyVisible={false}
         animateIn='fadeIn'
         animateOut='fadeOut'
