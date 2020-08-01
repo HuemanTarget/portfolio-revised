@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
 
 @keyframes spin {
   from {
@@ -33,7 +33,7 @@
 .about-title {
   font-size: 50px;
   text-align: center;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   margin-top: 100px;
 }
 
@@ -42,7 +42,7 @@
   max-width: 15%;
 }
 
-.headshot:hover {
+/* .headshot:hover {
   animation-name: spin;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -51,10 +51,10 @@
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-duration: 2s;
-}
+} */
 
 .about h3 {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 25px;
   text-align: center;
   margin-left: auto;
@@ -121,7 +121,7 @@ i:hover:after {
   margin: 0;
   color: black;
   text-decoration: none;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 20px;
 }
 
@@ -132,7 +132,7 @@ a:link {
   .about-title {
     font-size: 30px;
     text-align: center;
-    font-family: 'Overpass', sans-serif;
+    font-family: "Overpass", sans-serif;
     margin-top: 50px;
   }
 
@@ -142,7 +142,7 @@ a:link {
   }
 
   .about h3 {
-    font-family: 'Overpass', sans-serif;
+    font-family: "Overpass", sans-serif;
     font-size: 15px;
     text-align: center;
     margin-left: auto;
@@ -161,7 +161,7 @@ a:link {
     margin: 0;
     color: black;
     text-decoration: none;
-    font-family: 'Overpass', sans-serif;
+    font-family: "Overpass", sans-serif;
     font-size: 12px;
     object-position: -100px;
   }
