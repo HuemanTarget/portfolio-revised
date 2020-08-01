@@ -1,31 +1,31 @@
-import React from 'react';
-import Typist from 'react-typist';
+import React from "react";
+import Typist from "react-typist";
 
-import sample from '../../Assets/WebsiteBG.mp4';
+import sample from "../../Assets/WebsiteBG.mp4";
 
-import classes from './BackgroundVideo.module.css';
+import classes from "./BackgroundVideo.module.css";
 // import './style.css';
 
 const BackgroundVideo = () => {
   // let videoSource = '../../Assets/WebsiteBG.mp4'
   return (
     <div>
-      <video autoPlay='autoplay' loop='loop' muted className={classes.Video}>
-        <source src={sample} type='video/mp4' />
+      <video autoPlay="autoplay" loop="loop" muted className={classes.Video}>
+        <source src={sample} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
       <div className={classes.Content}>
         <div className={classes.SubContent}>
           <Typist cursor={{ show: false }}>
-            <h1 className='name'>
+            <h1 className="name">
               <Typist.Delay ms={1000} />
               JOSHUA
               <br />
               BASCHE
             </h1>
-            <h3 className='position'>FULL STACK WEB DEVLOPER</h3>
-            <div className='skills'>
+            <h3 className="position">FULL STACK WEB DEVLOPER</h3>
+            <div className="skills">
               <p>REACT</p>
               <Typist.Backspace count={5} delay={200} />
               <p>JAVASCRIPT</p>
