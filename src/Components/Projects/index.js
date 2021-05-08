@@ -23,6 +23,56 @@ const Projects = () => {
           <h1>PROJECTS</h1>
         </div>
         <div className="wrapper">
+        <div className="card">
+            <img src={back} alt="poster"></img>
+            <div className="descriptions">
+              <h1>Rehab iOS</h1>
+              <p>
+              Full Stack iOS App that allows users to keep track of their medications, health stats, and medical calendars. Developed using Swift with Core Data as the back-end database.
+              </p>
+              <a
+                href="https://github.com/HuemanTarget/Rehab"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-github-square" />
+                <h4 className="link">GitHub</h4>
+              </a>
+              <a
+                href="###"
+                // target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-mobile" />
+                <h4 className="link">Beta Testing</h4>
+              </a>
+            </div>
+          </div>
+        <div className="card">
+            <img src={back} alt="poster"></img>
+            <div className="descriptions">
+              <h1>On The List</h1>
+              <p>
+              Full Stack iOS App developed to track cast and crew on-set eligibility based on their recent COVID tests. Developed using Swift with Firebase and Google Sheets as the back-end database.
+              </p>
+              <a
+                href="https://github.com/HuemanTarget/dave-crew-checkin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-github-square" />
+                <h4 className="link">GitHub</h4>
+              </a>
+              <a
+                href="###"
+                // target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-mobile" />
+                <h4 className="link">Beta Testing</h4>
+              </a>
+            </div>
+          </div>
           <div className="card">
             <img src={back} alt="poster"></img>
             <div className="descriptions">
