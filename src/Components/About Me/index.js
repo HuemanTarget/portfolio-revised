@@ -39,7 +39,7 @@ const AboutMe = () => {
             <h4 className='link'>LinkedIn</h4>
           </a>
           <a
-            href='https://www.docdroid.net/xJ1azQo/joshua-basche-resume-2020-full-pdf'
+            href='https://resume.io/r/sEbBXnGZB'
             target='_blank'
             rel='noopener noreferrer'
           >
