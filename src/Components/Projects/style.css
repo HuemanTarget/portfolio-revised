@@ -3,7 +3,7 @@
 .projects {
   position: relative;
   min-height: 300px;
-  max-height: 2000px;
+  max-height: 2200px;
   overflow: hidden;
   margin-bottom: 100px;
 }
@@ -24,7 +24,7 @@
   /* transform: translate(-50%, -50%); */
   width: 100%;
   max-width: 650px;
-  max-height: 1392px;
+  /* max-height: 3000px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

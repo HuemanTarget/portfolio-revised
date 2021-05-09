@@ -6,6 +6,8 @@ import red from "../../Assets/RedCup.jpg";
 import act from "../../Assets/interACTive.jpg";
 import bad from "../../Assets/BreakingBlackjack.jpg";
 import back from "../../Assets/BackLog.jpg";
+import list from "../../Assets/OnTheList.jpg"
+import rehab from "../../Assets/Rehab.jpg"
 
 import "./style.css";
 
@@ -24,7 +26,7 @@ const Projects = () => {
         </div>
         <div className="wrapper">
         <div className="card">
-            <img src={back} alt="poster"></img>
+            <img src={rehab} alt="poster"></img>
             <div className="descriptions">
               <h1>Rehab iOS</h1>
               <p>
@@ -49,7 +51,7 @@ const Projects = () => {
             </div>
           </div>
         <div className="card">
-            <img src={back} alt="poster"></img>
+            <img src={list} alt="poster"></img>
             <div className="descriptions">
               <h1>On The List</h1>
               <p>
