@@ -30,20 +30,20 @@ const BackgroundVideo = () => {
               <Typist.Backspace count={5} delay={200} />
               <p>JAVASCRIPT</p>
               <Typist.Backspace count={10} delay={200} />
+              <p>SWIFT</p>
+              <Typist.Backspace count={5} delay={200} />
               <p>NODEJS</p>
               <Typist.Backspace count={6} delay={200} />
               <p>EXPRESS</p>
               <Typist.Backspace count={7} delay={200} />
-              <p>MONOGO</p>
-              <Typist.Backspace count={6} delay={200} />
               <p>HTML</p>
               <Typist.Backspace count={4} delay={400} />
               <p>CSS</p>
               <Typist.Backspace count={3} delay={400} />
               <p>DJANGO</p>
               <Typist.Backspace count={6} delay={200} />
-              <p>UNITY</p>
-              <Typist.Backspace count={5} delay={200} />
+              <p>MONGODB</p>
+              <Typist.Backspace count={7} delay={200} />
               <p>ADOBE SUITE</p>
               <Typist.Backspace count={11} delay={200} />
               <p>
@@ -51,11 +51,11 @@ const BackgroundVideo = () => {
                 <br />
                 JAVASCRIPT
                 <br />
+                SWIFT
+                <br />
                 NODEJS
                 <br />
                 EXPRESS
-                <br />
-                MONGO
                 <br />
                 HTML
                 <br />
@@ -63,7 +63,7 @@ const BackgroundVideo = () => {
                 <br />
                 DJANGO
                 <br />
-                UNITY
+                MONGODB
                 <br />
                 ADOBE SUITE
               </p>
