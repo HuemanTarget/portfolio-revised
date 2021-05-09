@@ -1,7 +1,8 @@
 import React from "react";
 import Typist from "react-typist";
 
-import sample from "../../Assets/WebsiteBG.mp4";
+// import sample from "../../Assets/WebsiteBG.mp4";
+import sampleTwo from "../../Assets/WebsiteBGTwo.mp4"
 
 import classes from "./BackgroundVideo.module.css";
 // import './style.css';
@@ -11,7 +12,7 @@ const BackgroundVideo = () => {
   return (
     <div>
       <video autoPlay="autoplay" loop="loop" muted className={classes.Video}>
-        <source src={sample} type="video/mp4" />
+        <source src={sampleTwo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
