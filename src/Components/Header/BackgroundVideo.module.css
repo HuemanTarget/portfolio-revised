@@ -86,14 +86,13 @@
 
 @media only screen and (max-device-width: 900px) {
   .Video {
-    width: 150%;
+    width: 100%;
     height: 100%;
-    object-position: -105px;
   }
 
   .Content h1 {
     color: red;
-    font-size: 50px;
+    font-size: 28px;
     line-height: 0.9;
     font-family: 'Rubik', sans-serif;
     margin-bottom: 5px;
@@ -104,7 +103,7 @@
   }
 
   .Content h3 {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 5px;
     margin-left: 0;
     margin-right: 0;
@@ -118,7 +117,7 @@
 
   .Content p {
     line-height: 1;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 2px;
     font-family: 'Overpass', sans-serif;
     margin-bottom: 2px;
