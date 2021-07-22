@@ -25,14 +25,14 @@ const BackgroundVideo = () => {
               <br />
               BASCHE
             </h1>
-            <h3 className="position">FULL STACK WEB DEVLOPER</h3>
+            <h3 className="position">iOS & Full Stack Web Developer</h3>
             <div className="skills">
+              <p>SWIFT</p>
+              <Typist.Backspace count={5} delay={200} />
               <p>REACT</p>
               <Typist.Backspace count={5} delay={200} />
               <p>JAVASCRIPT</p>
               <Typist.Backspace count={10} delay={200} />
-              <p>SWIFT</p>
-              <Typist.Backspace count={5} delay={200} />
               <p>NODEJS</p>
               <Typist.Backspace count={6} delay={200} />
               <p>EXPRESS</p>
@@ -48,11 +48,11 @@ const BackgroundVideo = () => {
               <p>ADOBE SUITE</p>
               <Typist.Backspace count={11} delay={200} />
               <p>
+                SWIFT
+                <br />
                 REACT
                 <br />
                 JAVASCRIPT
-                <br />
-                SWIFT
                 <br />
                 NODEJS
                 <br />
