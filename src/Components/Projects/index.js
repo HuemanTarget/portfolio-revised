@@ -41,12 +41,12 @@ const Projects = () => {
                 <h4 className="link">GitHub</h4>
               </a>
               <a
-                href="###"
-                // target="_blank"
+                href="https://apps.apple.com/us/app/rehab-ios/id1560060705"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fa fa-mobile" />
-                <h4 className="link">Beta Testing</h4>
+                <h4 className="link">Apple App Store</h4>
               </a>
             </div>
           </div>
